@@ -1,0 +1,22 @@
+{
+    "endpoints": [
+      {
+        "method": "GET",
+        "url": "/",
+        "description": "Verifica se a API está rodando"
+      },
+      {
+        "method": "POST",
+        "url": "/prever/",
+        "description": "Recebe um número e retorna uma previsão baseada em multiplicação por 2",
+        "input": {
+          "valor": "float"
+        },
+        "output": {
+          "valor_original": "float",
+          "previsao": "float"
+        }
+      }
+    ]
+  }
+  
